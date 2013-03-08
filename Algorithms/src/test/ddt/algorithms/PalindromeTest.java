@@ -1,6 +1,7 @@
-package ddt.alg.ds;
+package ddt.algorithms;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
+import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
@@ -12,7 +13,7 @@ public class PalindromeTest {
 		assertFalse(Palindrome.isPalindrome("lolada"));
 		assertTrue(Palindrome.isPalindrome("lool"));
 	}
-	
+
 	@Test
 	public void shouldCheckIfWordIsAPalindromeRecursively() {
 		assertTrue(Palindrome.isPalindromeRecursively("lol"));

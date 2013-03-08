@@ -1,4 +1,4 @@
-package ddt.alg.ds;
+package ddt.algorithms;
 
 public class Palindrome {
 
